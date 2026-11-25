@@ -1,0 +1,100 @@
+.app {
+  width: 100%;
+  max-width: 420px;
+  background: #fff;
+  padding: 32px 28px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(30, 64, 175, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.titulo img {
+  width: 44px;
+  height: 44px;
+}
+
+.titulo h1 {
+  font-size: 2rem;
+  color: var(--azul-escuro);
+}
+
+.subtitulo {
+  color: var(--texto-suave);
+}
+
+.busca {
+  width: 100%;
+  display: flex;
+  gap: 8px;
+}
+
+.busca input {
+  flex: 1;
+  min-width: 0;
+  padding: 12px 14px;
+  border: 1px solid var(--borda);
+  border-radius: 10px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.busca input:focus {
+  border-color: var(--azul);
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.busca button {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 10px;
+  background: var(--azul);
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.busca button:hover {
+  background: var(--azul-escuro);
+}
+
+.resultado {
+  width: 100%;
+  padding: 20px;
+  border-radius: 14px;
+  background: #f0f9ff;
+  border: 1px solid #bae6fd;
+}
+
+.resultado h2 {
+  font-size: 1.25rem;
+  color: var(--texto);
+}
+
+.temperatura {
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--azul-escuro);
+}
+
+.erro {
+  color: #b91c1c;
+}
